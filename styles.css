@@ -1,0 +1,73 @@
+
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+header {
+    background: #ffffff;
+    padding: 10px;
+}
+.title {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+h1 {
+    text-align: left;
+}
+.container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.second-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.third-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.post {
+    width: 500px;
+    height: auto; /* Responsive purpose */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.post-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* To center the date */
+    padding: 0 10px 0 10px;
+}
+h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+.post-image {
+    width: 500px;
+    height: auto;
+}
+.text-down {
+    padding: 0 10px 0 10px;
+}
+.date {
+    color: rgb(192, 189, 185);
+}
